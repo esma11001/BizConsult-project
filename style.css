@@ -195,3 +195,135 @@ section {
   margin-top: 1rem;
 }
 /* end about section */
+/* ready section */
+.ready {
+  background-color: var(--primaryColor);
+  height: 13rem;
+  display: grid;
+  grid-template-columns: 620px 300px;
+}
+.ready-img1 {
+  position: absolute;
+  width: 260px;
+  height: auto;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.ready-text {
+  align-self: center;
+  margin-left: 3rem;
+  color: var(--fWhite);
+  line-height: 2rem;
+}
+.ready-head {
+  font-size: 1.5rem;
+}
+.ready-text1 {
+  font-size: 12px;
+}
+.ready-input {
+  width: 450px;
+  border: 1px solid var(--fWhite);
+  padding: 12px 15px;
+  border-radius: 23px;
+  margin-top: 1rem;
+}
+.ready-btn {
+  font-size: 19px;
+  color: var(--primaryColor);
+  border: none;
+  margin-left: -2.5rem;
+  background-color: var(--fWhite);
+}
+/* end ready section */
+/* services section */
+.services {
+  background-color: var(--fWhite);
+  height: 900px;
+}
+.services-header {
+  padding: 8rem;
+  text-align: center;
+}
+.services-text {
+  border: 2px solid #dee2e6;
+  width: 120px;
+  margin-left: 22rem;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  padding: 4px 0;
+  border-radius: 20px;
+  color: var(--primaryColor);
+}
+.services-head {
+  font-size: 1.7rem;
+  color: var(--dark);
+}
+.card {
+  display: grid;
+  width: 330px;
+  height: 200px;
+  border: 2px solid none;
+  box-shadow: 1px 2px 4px 1px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.card:hover   {
+  border: 1px solid var(--primaryColor);
+  transform: translateY(-10px);
+  
+}
+
+
+/* #service-btn:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fWhite);
+    background-color: var(--primaryColor);
+    padding: 2px 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 4px;
+    display: none;
+  }
+
+  .service-btn1:hover {
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 17.3rem;
+    font-size: 13px;
+  } */
+
+#card-icon1 {
+  display: flex;
+  color: var(--fWhite);
+  background-color: var(--primaryColor);
+  padding: 10px;
+  border-radius: 4px 0;
+  height: 34px;
+  width: 34px;
+  justify-content: center;
+}
+.card-head {
+  color: var(--dark);
+  font-size: 17px;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+.card-text {
+  color: var(--text);
+  font-size: 13px;
+  width: 255px;
+  height: 70px;
+  margin-left: 2.5rem;
+}
+.services-card {
+  display: grid;
+  grid-template-columns: 335px 335px 335px;
+  grid-template-rows: 220px 220px;
+  justify-content: space-around;
+  margin-top: -5rem;
+}
+/* end services section */
