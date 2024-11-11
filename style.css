@@ -268,33 +268,10 @@ section {
   border-radius: 5px;
   transition: transform 0.3s;
 }
-.card:hover   {
+.card:hover {
   border: 1px solid var(--primaryColor);
   transform: translateY(-10px);
-  
 }
-
-
-/* #service-btn:hover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--fWhite);
-    background-color: var(--primaryColor);
-    padding: 2px 2px;
-    width: 50px;
-    height: 50px;
-    border-radius: 0 4px;
-    display: none;
-  }
-
-  .service-btn1:hover {
-    display: flex;
-    text-decoration: none;
-    position: absolute;
-    margin-left: 17.3rem;
-    font-size: 13px;
-  } */
 
 #card-icon1 {
   display: flex;
@@ -545,3 +522,186 @@ section {
   height: 30px;
 }
 /* end testimonial section */
+/* team section  */
+.team {
+  background-color: var(--fWhite);
+  padding-bottom: 6rem;
+}
+.team-text {
+  display: flex;
+  color: var(--primaryColor);
+  border: 1px solid #dee2e6;
+  width: 100px;
+  height: 20px;
+  justify-content: center;
+  font-size: 13px;
+  border-radius: 20px;
+  padding-top: 5px;
+  margin-left: 31rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.team-head {
+  color: var(--dark);
+  font-size: 28px;
+  padding-top: 15px;
+  text-align: center;
+}
+.team-member {
+  margin-top: 3rem;
+}
+.text-div {
+  background-color: var(--fWhite);
+  width: 240px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(131, 130, 130, 0.5);
+  border-radius: 3px;
+  z-index: -1;
+  margin-bottom: -3rem;
+}
+.team-img {
+  height: auto;
+  width: 180px;
+  border-radius: 50%;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: var(--primaryColor);
+  outline-offset: 10px;
+}
+.img-div {
+  display: flex;
+  width: 240px;
+  height: 180px;
+  justify-content: center;
+  z-index: 1;
+}
+.team-icon {
+  width: 240px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(131, 130, 130, 0.5);
+  border-radius: 3px;
+  z-index: -1;
+  margin-top: -3rem;
+}
+.icon {
+  font-size: 13px;
+  color: var(--primaryColor);
+  padding: 10px;
+  padding-top: 5rem;
+}
+.team-head1 {
+  color: var(--dark);
+  font-size: 18px;
+  padding-top: 1.5rem;
+}
+.team-text1 {
+  color: var(--text);
+  font-size: 13px;
+  padding-top: 10px;
+}
+.teams-div {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: space-evenly;
+}
+
+/* end team section */
+/* start footer */
+.footer {
+  color: var(--light);
+  background-color: var(--dark);
+  align-content: center;
+  height: 390px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.footer-div {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  justify-content: space-evenly;
+}
+.btn {
+  color: var(--light);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  line-height: 2rem;
+}
+.btn:hover {
+  letter-spacing: 2px;
+}
+.footer-head {
+  font-size: 16px;
+  padding-bottom: 1rem;
+}
+.footer-text1 {
+  font-size: 13px;
+  line-height: 2rem;
+}
+.footer-text2 {
+  font-size: 13px;
+  padding: 0 0 1rem 0;
+}
+#text-icon {
+  margin-right: 15px;
+}
+.footer-icon {
+  color: var(--light);
+  padding: 5px;
+  border: 1px solid rgb(225, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+.footer-icon:hover {
+  color: var(--primaryColor);
+  background-color: var(--fWhite);
+}
+.icon-div {
+  margin-top: 1rem;
+}
+.footer-input {
+  width: 190px;
+  border: 1px solid var(--fWhite);
+  padding: 10px 15px;
+  border-radius: 23px;
+}
+.footer-btn {
+  font-size: 19px;
+  color: var(--primaryColor);
+  border: none;
+  margin-left: -2.5rem;
+  background-color: var(--fWhite);
+}
+.footer-bottom {
+  font-size: 12px;
+  margin-top: 2rem;
+  border-top: 1px solid rgb(225, 255, 255, 0.1);
+
+  margin-bottom: -3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footer-menu {
+  color: white;
+  text-align: right;
+  word-spacing: 10px;
+  font-size: 11px;
+  margin-top: -2rem;
+}
+.footer-menu1 {
+  color: var(--light);
+  text-decoration: none;
+  border-right: 1px solid rgb(225, 255, 255, 0.1);
+  padding-right: 10px;
+}
+.link {
+  color: var(--light);
+}
+.footer-p {
+  padding-top: 1.5rem;
+}
