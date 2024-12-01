@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizConsult</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="./icon/fontawesome-free-6.6.0-web/css/all.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .banner {
+        background-color: #00b98e;
+        height: 250px;
+        align-content: center;
+        justify-content: center;
+        color: #ffffff;
+        margin-top: -1rem;
+      }
+      .links {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 13px;
+      }
+      .banner1 {
+        font-size: 35px;
+        text-align: center;
+      }
+      .banner2 {
+        font-size: 13px;
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem;
+      }
+      .contact{
+        height: 750px;
+        background-color: #ffffff;
+    
+      }
+      .contact-text1 {
+        display: flex;
+        color: var(--primaryColor);
+        border: 1px solid #dee2e6;
+        width: 100px;
+        height: 20px;
+        justify-content: center;
+        font-size: 13px;
+        border-radius: 20px;
+        padding-top: 5px;
+        margin-left: 31rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10rem;
+      }
+      .contact-head{
+        text-align: center;
+        color: var(--dark);
+        margin-top: 1rem;
+        font-size: 26px;
+      }
+      .contact-text2{
+        text-align: center;
+        font-size: 13px;
+        color: var(--text);
+        margin-top: 2rem;
+      }
+      .contact-link{
+       text-decoration: none;
+       color: var(--primaryColor);
+      }
+      .contact-link:hover{
+        color: #5a9083;
+      }
+      /* form */
+      .contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 14rem;
+}
+
+.form-row {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    width: 100%;
+    padding: 13px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+.submit-btn {
+    width: 100%;
+    background-color: #00b894;
+    color: #fff;
+    padding: 15px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #01956f;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar  -->
+      <nav class="navbar">
+        <a class="navbar-head" href="index.html"><h1>BizConsult</h1></a>
+        <div class="nav-div">
+          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./about.html" class="nav-link">About</a>
+          <a href="./services.html" class="nav-link">Service</a>
+          <a href="#" class="nav-link">Pages</a>
+          <a href="./contact.html" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-btn">
+          <a href="#" class="nav-btn-link">Free Quote</a>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- banner -->
+      <section class="banner">
+        <h2 class="banner1">Contact Us</h2>
+        <p class="banner2">
+          <a class="links" href="#">Home</a> /
+          <a class="links" href="#">Pages</a> / Contact
+        </p>
+      </section>
+      <!-- contact section -->
+      <section class="contact">
+        <p class="contact-text1">Contact Us</p>
+        <h2 class="contact-head">
+          If You Have Any Query, Please Feel <br />
+          Free Contact Us
+        </h2>
+        <p class="contact-text2">
+          The contact form is currently inactive. Get a functional and working
+          contact form with Ajax & PHP in a <br> few minutes. Just copy and paste the
+          files, add a little code and you're done.
+          <a class="contact-link" href="#"> Download Now</a>.
+        </p>
+           <form action="#" method="POST" class="contact-form">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-row">
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="submit-btn">Send Message</button>
+            </div>
+        </form>
+      </section>
+
+      <!-- start footer -->
+      <section class="footer">
+        <div class="footer-div">
+          <div>
+            <h5 class="footer-head">Get In Touch</h5>
+            <p class="footer-text1">
+              <i id="text-icon" class="fa fa-map-marker-alt"></i>123 Street, New
+              York, USA
+            </p>
+            <p class="footer-text1">
+              <i id="text-icon" class="fa fa-phone-alt"></i>+012 345 67890
+            </p>
+            <p class="footer-text1">
+              <i id="text-icon" class="fa fa-envelope"></i>info@example.com
+            </p>
+            <div class="icon-div">
+              <a class="footer-icon" href=""><i class="fab fa-twitter"></i></a>
+              <a class="footer-icon" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="footer-icon" href=""><i class="fab fa-youtube"></i></a>
+              <a class="footer-icon" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="footer-icon" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h5 class="footer-head">Quick Link</h5>
+            <a class="btn btn-link" href="#"> > About Us</a>
+            <a class="btn btn-link" href="#"> > Contact Us</a>
+            <a class="btn btn-link" href="#"> > Privacy Policy</a>
+            <a class="btn btn-link" href="#"> > Terms & Condition</a>
+            <a class="btn btn-link" href="#"> > Career</a>
+          </div>
+          <div>
+            <h5 class="footer-head">Popular Link</h5>
+            <a class="btn btn-link" href="#"> > About Us</a>
+            <a class="btn btn-link" href="#"> > Contact Us</a>
+            <a class="btn btn-link" href="#"> > Privacy Policy</a>
+            <a class="btn btn-link" href="#"> > Terms & Condition</a>
+            <a class="btn btn-link" href="#"> > Career</a>
+          </div>
+          <div>
+            <h5 class="footer-head">Newsletter</h5>
+            <p class="footer-text2">
+              Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi.
+              Curabitur facilisis ornare velit non vulpu
+            </p>
+            <form action="#">
+              <input
+                class="footer-input"
+                type="text"
+                placeholder="Your Email"
+              />
+              <button class="footer-btn">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-p">
+            &copy; <a class="link" href="#">Your Site Name</a>, All Right
+            Reserved. Designed By <a class="link" href="#">HTML Codex</a>
+          </p>
+          Distributed By:
+          <a class="link" href="https://themewagon.com" target="_blank"
+            >ThemeWagon</a
+          >
+          <div class="footer-menu">
+            <a class="footer-menu1" href="#">Home</a>
+            <a class="footer-menu1" href="#">Cookies</a>
+            <a class="footer-menu1" href="#">Help</a>
+            <a class="footer-menu1" href="#">FQAs</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
